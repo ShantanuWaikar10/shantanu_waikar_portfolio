@@ -4,7 +4,7 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG5 from '../../assets/portfolio7.png'
 import IMG6 from '../../assets/portfolio6.png'
 
 const Portfolio = () => {
@@ -54,7 +54,7 @@ const Portfolio = () => {
             <a href="https://weather-app-stige1.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
@@ -62,6 +62,16 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/ShantanuWaikar10/simon-game-project" className='btn'>Github</a>
             <a href="https://simon-game-project.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article> */}
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Restaurant Website</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ShantanuWaikar10/restaurant-website" className='btn'>Github</a>
+            <a href="https://restaurant-website-flax-seven.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
