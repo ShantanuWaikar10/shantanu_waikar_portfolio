@@ -5,8 +5,7 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio7.png'
-import IMG6 from '../../assets/portfolio6.png'
-import IMG8 from '../../assets/portfolio8.png'
+import IMG6 from '../../assets/portfolio8.png'
 
 const Portfolio = () => {
   return (
@@ -67,7 +66,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG8} alt="" />
+            <img src={IMG6} alt="" />
           </div>
           <h3>e-Learning App</h3>
           <div className="portfolio__item-cta">
