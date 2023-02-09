@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio7.png'
 import IMG6 from '../../assets/portfolio6.png'
+import IMG8 from '../../assets/portfolio8.png'
 
 const Portfolio = () => {
   return (
@@ -50,20 +51,10 @@ const Portfolio = () => {
           </div>
           <h3>Weather App</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ShantanuWaikar10/weather-app-stige" className='btn'>Github</a>
-            <a href="https://weather-app-stige1.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/ShantanuWaikar10/" className='btn'>Github</a>
+            <a href="https://weather-app-react-by-shantanu.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
-        {/* <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Simon Game</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/ShantanuWaikar10/simon-game-project" className='btn'>Github</a>
-            <a href="https://simon-game-project.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article> */}
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
@@ -76,12 +67,12 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
+            <img src={IMG8} alt="" />
           </div>
-          <h3>Netflix Clone</h3>
+          <h3>e-Learning App</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ShantanuWaikar10/Netflix_clone_stige" className='btn'>Github</a>
-            <a href="https://netflix-clone-stige.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/ShantanuWaikar10/e-Learning-Website" className='btn'>Github</a>
+            <a href="https://e-learning-by-shantanu.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
